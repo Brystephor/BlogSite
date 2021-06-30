@@ -1,0 +1,4 @@
+baseURL = "http://brycefryer.com/"
+languageCode = "en-us"
+title = "Bryce Fryers blog"
+theme = "ananke"
