@@ -1,0 +1,62 @@
+baseurl: "https://brycefryer.com"
+languageCode: "en-us"
+title: "Bryce Fryer's Blog"
+theme: "hugo-tania"
+paginate: 6
+
+disqusShortname:
+
+params:
+  # Emoji will show before the blog title on site navbar.
+  # titleEmoji: "😎"
+
+  # Logo will show before the blog title on site navbar.
+  # titleLogo: favicon.ico
+  
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes: true
+  siteName: "Bryce Fryer's Blog"
+  siteDesc: "issa blog"
+  author: "Bryce Fryer"
+
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow: 10
+
+  # Show your socail information with icon on index bio with `_index.md` content.
+  socialOptions:
+    dev-to:
+    email: brystephor@gmail.com
+    facebook: 
+    github: https://github.com/Brystephor
+    linkedin: https://www.linkedin.com/in/brycefryer/
+    medium:
+    stack-overflow:
+  
+  # Comments settings
+  comments:
+    enabled: false
+    provider: disqus
+
+menu:
+  header:
+    - name: Articles
+      url: "/articles/"
+    - name: About Me
+      url: "/about/"
+  footer:
+    - name: RSS
+      url: "/index.xml"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
