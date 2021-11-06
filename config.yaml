@@ -46,9 +46,9 @@ menu:
       url: "/articles/"
     - name: About Me
       url: "/about/"
-  footer:
-    - name: RSS
-      url: "/index.xml"
+  # footer:
+  #   - name: RSS
+  #     url: "/index.xml"
 
 markup:
   highlight:
