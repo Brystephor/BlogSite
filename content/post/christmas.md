@@ -4,6 +4,8 @@ date: 2021-11-06
 draft: false
 ---
 
+## Recruiters and (Prospective) Employer(s)
+
 If you're a recruiter, manager, and/or prospective employer and somehow found
 this page, then shoot me an email at [brystephor@gmail.com](mailto:brystephor@gmail.com)
 and tell me about it. (:
