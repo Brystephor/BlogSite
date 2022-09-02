@@ -8,7 +8,7 @@ disqusShortname:
 
 params:
   # Emoji will show before the blog title on site navbar.
-  # titleEmoji: "😎"
+  titleEmoji: "😎"
 
   # Logo will show before the blog title on site navbar.
   # titleLogo: favicon.ico
@@ -16,6 +16,8 @@ params:
   # Enable float footnotes.
   # Default to true
   enableFootnotes: true
+
+  # Additional options for meta SEO
   siteName: "Bryce Fryer's Blog"
   siteDesc: "issa blog"
   author: "Bryce Fryer"
