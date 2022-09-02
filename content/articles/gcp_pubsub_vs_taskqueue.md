@@ -1,8 +1,8 @@
 ---
 author: "Bryce Fryer"
 title: "Google Cloud: Pub/Sub vs Task Queue"
-# date: "2021-07-14"
-description: "Learn the differences between google cloud pub/sub and task queue."
+date: "2021-07-14"
+description: "Learn the differences between google cloud pub/sub and google cloud task queue (cloud tasks)."
 katex: true
 tags: 
 ---

@@ -1,7 +1,7 @@
 ---
 author: "Bryce Fryer"
 title: "What are Real Time Payments?"
-date: "2021-07-14"
+date: "2022-09-02"
 description: "An overview of real time payments and the network they're on."
 katex: false
 tags: 
