@@ -16,7 +16,19 @@ tags:
 
 **Seattle WA. Dec 2021 - Current**
 
-* Will fill this out later.
+* Worked on the advertiser payments team to build systems that accurately and reliably collected 98% of company
+revenue. Utilized Google Cloud Platform AppEngine, Datastore, BigQuery and Cloud Tasks to build simple
+efficient systems.
+* Onboarded to the team quickly and built an advertising billing model and payment method to be offered in 3 new
+countries while collaborating with front end teams, multiple project managers and the taxes team after being part
+of the team for less than a year.
+* Identified and implemented a simple solution to reduce the number of advertiser support requests, reducing the
+number of support requests in our highest support category by 22%.
+* Designed and built a system of notifications in less than four weeks for an existing payment method option to
+increase advertiser spend resulting in an increase of $20,000+ in revenue with minimal maintenance required.
+* Designed and implemented support tool improvements after identifying repetitive manual operational tasks for
+team members to reduce time spent on manual operations by 12 engineering hours a month and reduce response
+time to advertiser support requests by an average of 12+ hours.
 
 ### Amazon - Software Development Engineer 1
 
