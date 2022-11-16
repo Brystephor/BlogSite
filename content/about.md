@@ -1,7 +1,7 @@
 ---
 author: "Bryce Fryer"
 title: "About Bryce Fryer"
-date: "2022-05-07"
+date: "2022-11-15"
 description: "A high level description of Bryce Fryer."
 katex: true
 tags: 
