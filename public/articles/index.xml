@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Bryce Fryer&#39;s Blog</title>
+    <link>https://brycefryer.com/articles/</link>
+    <description>Recent content in Articles on Bryce Fryer&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://brycefryer.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are Real Time Payments?</title>
+      <link>https://brycefryer.com/articles/real_time_payments_overview/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/articles/real_time_payments_overview/</guid>
+      <description>What are Real Time Payments?The TLDR is that A real time payment is a payment that is made to a bank account via the RTP network. These are bank to bank transactions that happen instantly and are available nearly 24/7. This is very different from standard ACH transactions which take 3-5 business days for the money to arrive in your bank account.
+How fast is instant?</description>
+    </item>
+    
+  </channel>
+</rss>

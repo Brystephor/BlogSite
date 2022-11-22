@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://brycefryer.com/</loc>
+    <loc>https://brycefryer.com/about/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brycefryer.com/categories/</loc>
+    <loc>https://brycefryer.com/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://brycefryer.com/tags/</loc>
+    <loc>https://brycefryer.com/tags/employment/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/resume/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/work/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/articles/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/payments/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/real-time-payments/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/tags/rtp/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/articles/real_time_payments_overview/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/articles/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://brycefryer.com/nonpublic/christmas_list/</loc>
+  </url><url>
+    <loc>https://brycefryer.com/categories/</loc>
+  </url><url>
+    <loc>https://brycefryer.com/nonpublic/</loc>
   </url>
 </urlset>

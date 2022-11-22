@@ -1,9 +1,135 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bryce Fryers blog</title>
-    <link>http://brycefryer.com/</link>
-    <description>Recent content on Bryce Fryers blog</description>
+    <title>Bryce Fryer&#39;s Blog</title>
+    <link>https://brycefryer.com/</link>
+    <description>Recent content on Bryce Fryer&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://brycefryer.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://brycefryer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>What are Real Time Payments?</title>
+    <link>https://brycefryer.com/articles/real_time_payments_overview/</link>
+    <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+    <author>Bryce Fryer</author>
+    <guid>https://brycefryer.com/articles/real_time_payments_overview/</guid>
+    <description>
+        &lt;h1 id=&#34;what-are-real-time-payments&#34;&gt;
+    &lt;a href=&#34;#what-are-real-time-payments&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    What are Real Time Payments?
+&lt;/h1&gt;
+&lt;p&gt;The TLDR is that A real time payment is a payment that is made to a bank account via the RTP network. These are bank to bank transactions that happen instantly and are available nearly 24/7. This is very different from standard ACH transactions which take 3-5 business days for the money to arrive in your bank account.&lt;/p&gt;
+&lt;h2 id=&#34;how-fast-is-instant&#34;&gt;
+    &lt;a href=&#34;#how-fast-is-instant&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    How fast is instant?
+&lt;/h2&gt;
+&lt;p&gt;Surprise! Instant actually isn&amp;rsquo;t always instant. As stated by the RTP operating rules in the &lt;em&gt;Receiving Participants Obligations section A&lt;/em&gt; there is a timeframe that the receiving participant must respond within. The actual timeframe though is unclear.&lt;/p&gt;
+&lt;p&gt;A real time payment can also be &amp;ldquo;accepted without posting&amp;rdquo; meaning the receiving participant could not decide whether or not to process or reject the payment in time. A payment that is accepted without posting is expected to make a decision by 11:59pm local time the next &lt;strong&gt;business&lt;/strong&gt; day, unless the payment review is related to sanctions compliance. A payment can be accepted without posting in two situations.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;when there are additional legal and/or compliance checks that need to be done.&lt;/li&gt;
+&lt;li&gt;The payment is made because of a participants request for return AND the designated account is now closed.
+&lt;ol&gt;
+&lt;li&gt;Note: a request for return is different than a new payment that is made to return money. Payments made to closed accounts will be rejected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;can-real-time-payments-really-be-made-247&#34;&gt;
+    &lt;a href=&#34;#can-real-time-payments-really-be-made-247&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Can real time payments really be made 24/7?
+&lt;/h2&gt;
+&lt;p&gt;The RTP network is available 24/7. The network mandates that banks are available on the RTP network 99% of the time. Which means they can have up to ~7.3 hours of &lt;strong&gt;unscheduled&lt;/strong&gt; downtime each month. In addition to this banks are allocated a maintnenace window from 2am - 6am EST every sunday. Downtime during this 4 hour maintenance window is not counted towards the 99% availability requirement.&lt;/p&gt;
+&lt;p&gt;So yes you can always initiate a real time payment, but there is no requirement that the bank you&amp;rsquo;re sending money to must be available 24/7/365. Sending a payment to a bank that is signed off the RTP network results in a rejected payment, meaning there was no transfer of funds.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-some-limitations-of-a-real-time-payment&#34;&gt;
+    &lt;a href=&#34;#what-are-some-limitations-of-a-real-time-payment&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    What are some limitations of a real time payment?
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A single transaction may not exceed $1 million USD. If you need to pay more than $1MM USD, then you can break it up into multiple transactions and create them back to back.
+&lt;ul&gt;
+&lt;li&gt;For example: Let&amp;rsquo;s say you owe someone $2.3MM USD. Then you can create 3 payments. Two payments for $1MM USD, and a final payment for $300k USD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You cannot reduce the size of a payment to collect transaction fees. This means that if you provide a service that transfers money via the RTP network and it costs the user X% of the transaction to initiate, then you cannot simply reduce the size of the payment by X% and send it to your own account. This is known as &amp;ldquo;fee netting&amp;rdquo;.
+&lt;ul&gt;
+&lt;li&gt;For example: You provide a peer to peer payment service that uses the RTP network to provide instant money transfers. This costs someone 2% of the transaction to use. Fred initiates a payment to Joe for $100. You cannot simply initiate a payment to Joe for $98 with the remaining $2 going to your own account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Foreign payments are prohibited. The actual definition of this is hard to understand entirely. You can read more about it here: &lt;a href=&#34;https://www.theclearinghouse.org/-/media/new/tch/documents/payment-systems/rtp_operating_rules_effective_08-25-2022.pdf&#34;&gt;RTP Operating Rules. 08-25-22&lt;/a&gt; under General Participant Responsibilites section E. You can find additional details about this in the &lt;a href=&#34;https://www.theclearinghouse.org/-/media/new/tch/documents/payment-systems/rules_interpretation_no_fee_netting_and_returned_funds_f.pdf&#34;&gt;TCH RTP Fee Netting rule interpretation&lt;/a&gt; document.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;faq&#34;&gt;
+    &lt;a href=&#34;#faq&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    FAQ
+&lt;/h1&gt;
+&lt;h2 id=&#34;what-are-some-benefits-of-real-time-payments&#34;&gt;
+    &lt;a href=&#34;#what-are-some-benefits-of-real-time-payments&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    What are some benefits of real time payments?
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The transfer of money occurs within seconds of initiation&lt;/li&gt;
+&lt;li&gt;Money can be transferred at anytime.&lt;/li&gt;
+&lt;li&gt;Improved cash flow. No more waiting 3-5 business days to see if a payment will or will not succeed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-can-i-use-real-time-payments-directly&#34;&gt;
+    &lt;a href=&#34;#how-can-i-use-real-time-payments-directly&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    How can I use real time payments directly?
+&lt;/h2&gt;
+&lt;p&gt;As an individual you cannot directly connect to the real time payment network. I&amp;rsquo;m not aware of any API&amp;rsquo;s that&amp;rsquo;re offered to independent developers for real time payments (without the companies own layering on top of it).&lt;/p&gt;
+&lt;p&gt;Otherwise, you can connect to a third party service provider. This would likely be a big bank. The clearing house is owned by a group of banks, all of which are likely to have access to the RTP network and could be willing to provide you access to their own API.&lt;/p&gt;
+&lt;h2 id=&#34;i-have-more-questions-where-can-i-go&#34;&gt;
+    &lt;a href=&#34;#i-have-more-questions-where-can-i-go&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    I have more questions. Where can I go?
+&lt;/h2&gt;
+&lt;p&gt;The best source for questions related to RTP is the TCH support email which can be found on their website: &lt;a href=&#34;https://www.theclearinghouse.org/about/contact&#34;&gt;https://www.theclearinghouse.org/about/contact&lt;/a&gt;&lt;/p&gt;
+
+    </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="dark">
+    <title>What are Real Time Payments? | Bryce Fryer&#39;s Blog</title>
+
+    
+    
+    
+    <meta property="og:site_name" content="Bryce Fryer&#39;s Blog" />
+    <meta property="og:title" content="What are Real Time Payments? | Bryce Fryer&#39;s Blog"/>
+    <meta itemprop="name" content="What are Real Time Payments? | Bryce Fryer&#39;s Blog" />
+    <meta name="twitter:title" content="What are Real Time Payments? | Bryce Fryer&#39;s Blog" />
+    <meta name="application-name" content="What are Real Time Payments? | Bryce Fryer&#39;s Blog" />
+
+
+    <meta name="description" content="An overview of real time payments and the network they&#39;re on." />
+    <meta name="twitter:description" content="An overview of real time payments and the network they&#39;re on. "/>
+    <meta itemprop="description" content=" An overview of real time payments and the network they&#39;re on. "/>
+    <meta property="og:description" content=" An overview of real time payments and the network they&#39;re on. " />
+
+    
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <link rel="stylesheet" href="/sass/main.min.0c99f055b39fe4b0d1b88fad1a5706a35ef915854180b88a7d2a7a6df9bd2b0a.css">
+</head>
+    <script>
+    (function() {
+        const colorSchemeKey = 'ThemeColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.userColorScheme = 'dark';
+        } else {
+            document.documentElement.dataset.userColorScheme = 'light';
+        }
+    })();
+</script>
+
+    <body class="dark">
+        <nav class="navbar">
+    <div class="container">
+        <div class="flex">
+            <div>
+                <a class="brand" href="/">
+                    
+                    <span class="emoji">
+                        😎
+                    </span>
+                    
+                    
+                    Bryce Fryer&#39;s Blog
+                    </a>
+            </div>
+            <div class="flex">
+                
+                <a href="/about/">About Me</a>
+                
+                <a href="/articles/">Articles</a>
+                
+                <button id="dark-mode-button">
+                  <svg class="light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="#FFD983" d="M30.312.776C32 19 20 32 .776 30.312c8.199 7.717 21.091 7.588 29.107-.429C37.9 21.867 38.03 8.975 30.312.776z"/><path d="M30.705 15.915a1.163 1.163 0 1 0 1.643 1.641a1.163 1.163 0 0 0-1.643-1.641zm-16.022 14.38a1.74 1.74 0 0 0 0 2.465a1.742 1.742 0 1 0 0-2.465zm13.968-2.147a2.904 2.904 0 0 1-4.108 0a2.902 2.902 0 0 1 0-4.107a2.902 2.902 0 0 1 4.108 0a2.902 2.902 0 0 1 0 4.107z" fill="#FFCC4D"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)" /></svg>
+                  <svg class="dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="#FFD983" d="M16 2s0-2 2-2s2 2 2 2v2s0 2-2 2s-2-2-2-2V2zm18 14s2 0 2 2s-2 2-2 2h-2s-2 0-2-2s2-2 2-2h2zM4 16s2 0 2 2s-2 2-2 2H2s-2 0-2-2s2-2 2-2h2zm5.121-8.707s1.414 1.414 0 2.828s-2.828 0-2.828 0L4.878 8.708s-1.414-1.414 0-2.829c1.415-1.414 2.829 0 2.829 0l1.414 1.414zm21 21s1.414 1.414 0 2.828s-2.828 0-2.828 0l-1.414-1.414s-1.414-1.414 0-2.828s2.828 0 2.828 0l1.414 1.414zm-.413-18.172s-1.414 1.414-2.828 0s0-2.828 0-2.828l1.414-1.414s1.414-1.414 2.828 0s0 2.828 0 2.828l-1.414 1.414zm-21 21s-1.414 1.414-2.828 0s0-2.828 0-2.828l1.414-1.414s1.414-1.414 2.828 0s0 2.828 0 2.828l-1.414 1.414zM16 32s0-2 2-2s2 2 2 2v2s0 2-2 2s-2-2-2-2v-2z"/><circle fill="#FFD983" cx="18" cy="18" r="10"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)" /></svg>
+                </button>
+            </div>
+            </div>
+    </div>
+</nav>
+        <main>
+            
+<div class="container">
+    <article>
+        <header class="article-header">
+            <div class="thumb">
+                <div>
+                    <h1>What are Real Time Payments?</h1>
+                    <div class="post-meta">
+                        <div>
+                            
+                            
+                            By Bryce Fryer | <time>September 02, 2022</time>
+                            | 4 minutes
+                        </div>
+                        <div class="tags">
+                            
+                            <a href="/tags/payments/">payments</a>
+                            
+                            <a href="/tags/rtp/">RTP</a>
+                            
+                            <a href="/tags/real-time-payments/">real time payments</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </article>
+
+    <div class="article-post">
+    <h1 id="what-are-real-time-payments">
+    <a href="#what-are-real-time-payments" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    What are Real Time Payments?
+</h1>
+<p>The TLDR is that A real time payment is a payment that is made to a bank account via the RTP network. These are bank to bank transactions that happen instantly and are available nearly 24/7. This is very different from standard ACH transactions which take 3-5 business days for the money to arrive in your bank account.</p>
+<h2 id="how-fast-is-instant">
+    <a href="#how-fast-is-instant" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    How fast is instant?
+</h2>
+<p>Surprise! Instant actually isn&rsquo;t always instant. As stated by the RTP operating rules in the <em>Receiving Participants Obligations section A</em> there is a timeframe that the receiving participant must respond within. The actual timeframe though is unclear.</p>
+<p>A real time payment can also be &ldquo;accepted without posting&rdquo; meaning the receiving participant could not decide whether or not to process or reject the payment in time. A payment that is accepted without posting is expected to make a decision by 11:59pm local time the next <strong>business</strong> day, unless the payment review is related to sanctions compliance. A payment can be accepted without posting in two situations.</p>
+<ol>
+<li>when there are additional legal and/or compliance checks that need to be done.</li>
+<li>The payment is made because of a participants request for return AND the designated account is now closed.
+<ol>
+<li>Note: a request for return is different than a new payment that is made to return money. Payments made to closed accounts will be rejected.</li>
+</ol>
+</li>
+</ol>
+<h2 id="can-real-time-payments-really-be-made-247">
+    <a href="#can-real-time-payments-really-be-made-247" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    Can real time payments really be made 24/7?
+</h2>
+<p>The RTP network is available 24/7. The network mandates that banks are available on the RTP network 99% of the time. Which means they can have up to ~7.3 hours of <strong>unscheduled</strong> downtime each month. In addition to this banks are allocated a maintnenace window from 2am - 6am EST every sunday. Downtime during this 4 hour maintenance window is not counted towards the 99% availability requirement.</p>
+<p>So yes you can always initiate a real time payment, but there is no requirement that the bank you&rsquo;re sending money to must be available 24/7/365. Sending a payment to a bank that is signed off the RTP network results in a rejected payment, meaning there was no transfer of funds.</p>
+<h2 id="what-are-some-limitations-of-a-real-time-payment">
+    <a href="#what-are-some-limitations-of-a-real-time-payment" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    What are some limitations of a real time payment?
+</h2>
+<ul>
+<li>A single transaction may not exceed $1 million USD. If you need to pay more than $1MM USD, then you can break it up into multiple transactions and create them back to back.
+<ul>
+<li>For example: Let&rsquo;s say you owe someone $2.3MM USD. Then you can create 3 payments. Two payments for $1MM USD, and a final payment for $300k USD.</li>
+</ul>
+</li>
+<li>You cannot reduce the size of a payment to collect transaction fees. This means that if you provide a service that transfers money via the RTP network and it costs the user X% of the transaction to initiate, then you cannot simply reduce the size of the payment by X% and send it to your own account. This is known as &ldquo;fee netting&rdquo;.
+<ul>
+<li>For example: You provide a peer to peer payment service that uses the RTP network to provide instant money transfers. This costs someone 2% of the transaction to use. Fred initiates a payment to Joe for $100. You cannot simply initiate a payment to Joe for $98 with the remaining $2 going to your own account.</li>
+</ul>
+</li>
+<li>Foreign payments are prohibited. The actual definition of this is hard to understand entirely. You can read more about it here: <a href="https://www.theclearinghouse.org/-/media/new/tch/documents/payment-systems/rtp_operating_rules_effective_08-25-2022.pdf">RTP Operating Rules. 08-25-22</a> under General Participant Responsibilites section E. You can find additional details about this in the <a href="https://www.theclearinghouse.org/-/media/new/tch/documents/payment-systems/rules_interpretation_no_fee_netting_and_returned_funds_f.pdf">TCH RTP Fee Netting rule interpretation</a> document.</li>
+</ul>
+<h1 id="faq">
+    <a href="#faq" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    FAQ
+</h1>
+<h2 id="what-are-some-benefits-of-real-time-payments">
+    <a href="#what-are-some-benefits-of-real-time-payments" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    What are some benefits of real time payments?
+</h2>
+<ol>
+<li>The transfer of money occurs within seconds of initiation</li>
+<li>Money can be transferred at anytime.</li>
+<li>Improved cash flow. No more waiting 3-5 business days to see if a payment will or will not succeed.</li>
+</ol>
+<h2 id="how-can-i-use-real-time-payments-directly">
+    <a href="#how-can-i-use-real-time-payments-directly" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    How can I use real time payments directly?
+</h2>
+<p>As an individual you cannot directly connect to the real time payment network. I&rsquo;m not aware of any API&rsquo;s that&rsquo;re offered to independent developers for real time payments (without the companies own layering on top of it).</p>
+<p>Otherwise, you can connect to a third party service provider. This would likely be a big bank. The clearing house is owned by a group of banks, all of which are likely to have access to the RTP network and could be willing to provide you access to their own API.</p>
+<h2 id="i-have-more-questions-where-can-i-go">
+    <a href="#i-have-more-questions-where-can-i-go" class="anchor">
+        <svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+            <path fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+            </path>
+        </svg>
+    </a>
+    I have more questions. Where can I go?
+</h2>
+<p>The best source for questions related to RTP is the TCH support email which can be found on their website: <a href="https://www.theclearinghouse.org/about/contact">https://www.theclearinghouse.org/about/contact</a></p>
+
+    </div>
+</div>
+
+<div class="container">
+    
+    <nav class="flex container suggested">
+        
+        
+        
+    </nav>
+    
+</div>
+ 
+<div class="container">
+    
+</div>
+
+</main>
+
+
+        </main>
+        <footer class="footer flex">
+    <section class="container">
+        <nav class="footer-links">
+            
+        </nav>
+    </section>
+    <script defer src="/ts/features.39c567b3af1363f8abe74bfd650f3d58cb963716b7ad4b3b53f801d3ca585599.js" data-enable-footnotes="true"></script>
+</footer>
+    </body>
+</html>

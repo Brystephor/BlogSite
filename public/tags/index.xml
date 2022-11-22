@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Bryce Fryers blog</title>
-    <link>http://brycefryer.com/tags/</link>
-    <description>Recent content in Tags on Bryce Fryers blog</description>
+    <title>Tags on Bryce Fryer&#39;s Blog</title>
+    <link>https://brycefryer.com/tags/</link>
+    <description>Recent content in Tags on Bryce Fryer&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://brycefryer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://brycefryer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>employment</title>
+      <link>https://brycefryer.com/tags/employment/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/employment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resume</title>
+      <link>https://brycefryer.com/tags/resume/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://brycefryer.com/tags/work/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>payments</title>
+      <link>https://brycefryer.com/tags/payments/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/payments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>real time payments</title>
+      <link>https://brycefryer.com/tags/real-time-payments/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/real-time-payments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RTP</title>
+      <link>https://brycefryer.com/tags/rtp/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycefryer.com/tags/rtp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
