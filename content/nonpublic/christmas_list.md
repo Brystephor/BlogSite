@@ -42,8 +42,13 @@ I like plants that are low maintenace, or dark green, or have a lot of vines. A 
 #### Home goods
 
 * Wall art.
-    * Links are TBD.
+    * A 18"x18" or 24"x24" acrylic print of this piece: [Westlake Center](https://www.artofjph.com/Prints-by-Donation/i-5hCtbck/A)
+
 
 #### Miscellaneous
 
-* Haven't thought of stuff yet.
+* [Lego Orchid](https://www.lego.com/en-us/product/orchid-10311)
+* [Lego Bird of Paradise](https://www.lego.com/en-us/product/bird-of-paradise-10289)
+* [Lego Rocket Ship (Apollo Saturn V)](https://www.lego.com/en-us/product/lego-nasa-apollo-saturn-v-92176)
+* Wool/wool-blend socks for snowboarding/skiing or hiking.
+    * Smartwool and DarnTough are brands I've seen good things about, but haven't actually used them.
